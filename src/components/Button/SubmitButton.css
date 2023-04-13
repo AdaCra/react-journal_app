@@ -1,0 +1,7 @@
+@import "../colors.css";
+button.entry__submitbutton {
+  background-color: var(--color-nemo);
+  color: var(--color-foam);
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+}
