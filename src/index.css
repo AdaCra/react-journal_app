@@ -1,6 +1,6 @@
-@import "./components/colors.css";
 @import "./components/Header/header.css";
-@import "./components/Button/SubmitButton.css";
+@import "./components/Input/input.css";
+@import "./components/Button/Buttons.css";
 
 body {
   margin: 0;
@@ -14,4 +14,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#root {
+  margin: auto;
+  width: 500px;
+}
+
+:root {
+  /* Used for texts (+ footer background) */
+  --color-granite: #252629;
+  /* Used for backgrounds (+ footer text color) */
+  --color-foam: #ffffff;
+  /* Used for buttons, icons, etc. */
+  --color-nemo: #ff4a11;
+  /* active color for buttons, icons, etc. */
+  --color-nemo-mid: #ff5c29;
+  /* hover color for buttons, icons, etc. */
+  --color-nemo-dark: #e5430f;
+  /* Used for borders and some backgrounds */
+  --color-water-10: #e4e8f0;
 }
